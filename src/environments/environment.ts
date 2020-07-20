@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  apiUrl: 'https://sukhpinder-sfin624:9093/pws-api/',
+  baseUrl: 'https://auth.pingone.asia/',
+  environmentId: '30168365-9897-4b5b-a112-01b97ebe170b',
+  clientId: '1ee458aa-75b4-43dd-9661-5091122387d0',
+  clientSecret: '',
+  //redirectUri: 'http://localhost:4200',
+  redirectUri:'https://sukhpinder-sfin624:9093/pws-ui',
+  scope: 'openid profile p1:read:user'
 };
 
 /*
